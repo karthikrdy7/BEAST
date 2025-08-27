@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    margin-right: 15px;
+}
+
+.heading {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    background-color: black;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.4s;
+    border-radius: 20px;
+}
+
+.navbar a:hover {
+    background-color: rgb(125, 124, 124);
+}
+.section {
+    height: 200px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.box1-img1 {
+    height: 600px;
+    width: 483px;
+}
+
+.box-head1 {
+    position: absolute;
+    top: 10%;
+    left: 140%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    background-color: rgba(240, 248, 255, 0);
+    color: rgb(255, 0, 0);
+}
+
+.box-btn1 {
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    top: 240%;
+    left: 185%;
+    font-size: 15px;
+    color: white;
+    background-color: rgba(240, 248, 255, 0);
+    border: 2px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.box-btn1:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 0.4s;
+}
+
+
+.box-img2 {
+    height: 600px;
+    width: 485px;
+
+}
+
+.box-head2 {
+    position: absolute;
+    top: 10%;
+    left: 650%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0);
+    color: rgb(255, 230, 0);
+}
+
+.box-btn2 {
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    top: 240%;
+    left: 700%;
+    font-size: 15px;
+    color: white;
+    background-color: rgba(240, 248, 255, 0);
+    border: 2px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.box-btn2:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 0.4s;
+}
+
+.box-img3 {
+    height: 600px;
+    width: 483px;
+}
+
+.box-head3 {
+    position: absolute;
+    top: 10%;
+    left: 1160%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    background-color: rgba(240, 248, 255, 0);
+    color: rgb(17, 255, 0);
+}
+
+.box-btn3 {
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    top: 240%;
+    left: 1200%;
+    font-size: 15px;
+    color: white;
+    background-color: rgba(240, 248, 255, 0);
+    border: 2px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.box-btn3:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 0.4s;
+}
+.btn-a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.btn-a:hover{
+
+    color: black;
+}

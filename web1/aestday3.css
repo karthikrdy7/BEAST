@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    margin-right: 15px;
+}
+
+.heading {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    background-color: black;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.4s;
+    border-radius: 20px;
+}
+
+.navbar a:hover {
+    background-color: rgb(125, 124, 124);
+}
+
+
+
+
+
+.breadcrumb a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.sec-head {
+
+    padding: 25px;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.para {
+    padding: 25px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+}
+
+
+.section3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px;
+
+}
+
+
+
+.table {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    border-collapse: collapse;
+   
+  }
+  th, td {
+    width: 100px;;
+    border: 1px solid #999;
+    padding: 10px;
+    text-align: left;
+  }
+  th {
+    background-color: #000000;
+  }
+
+  .separation {
+    height: 5px;
+    background-color: gray;
+}
+
+.diet{
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    justify-content: space-around;
+}
+
+
+.workouts{
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+}
+
+.exercises{
+    height: auto;
+    width: 800px;
+
+}
